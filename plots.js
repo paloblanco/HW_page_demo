@@ -39,6 +39,18 @@ function updatePlot() {
     else if (datasetName == 'brazil') {
         x = brazil;
     }
+    else if (datasetName == 'uk') {
+        x = uk;
+    }
+    else if (datasetName == 'mexico') {
+        x = mexico;
+    }
+    else if (datasetName == 'singapore') {
+        x = singapore;
+    }
+    else if (datasetName == 'southAfrica') {
+        x = southAfrica;
+    }
 
     Plotly.restyle("pie", "values", [x]);
 }
